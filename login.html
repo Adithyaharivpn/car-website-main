@@ -24,18 +24,23 @@
           </nav>
         <!-- navigation bar ends here -->
         <!-- Form starts here -->
+        <div class="card mx-auto p-2 mt-5" style="width: 18rem;">
+          <div class="card-body">
         <form class="box">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Username</label>
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Password</label>
+            </div>
             <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="submit" class="btn btn-primary"><a href="signup.html">Signup</a></button>
+            <h6>Not a member Already?</h6>
+            <button type="submit" class="btn btn-dark"><a class="sig" href="signup.html">Signup</a></button>
           </form> 
+        </div>
+        </div>
         <!-- Form ends here -->
 </body>
 </html>

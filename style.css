@@ -1,21 +1,7 @@
 .log{
     text-decoration: none;
 }
-/* body{
-    background-image: url(./images/erik-mclean-U06nswCc4l4-unsplash.jpg);
-    background-size: cover;
-} */
-.box{
-    border: 2px solid black;
-    margin-top: 10%;
-    margin-right: 40%;
-    margin-left: 40%;
-    padding: 1%;
-}
-.box2{
-    border: 2px solid black;
-    margin-top: 10%;
-    margin-right: 40%;
-    margin-left: 40%;
-    padding: 1%;
+.sig{
+    text-decoration: none;
+    color: white;
 }
